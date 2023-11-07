@@ -1,0 +1,38 @@
+h2{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+h1{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: right;
+}
+.lorem1{
+    font-family: "aldrich";
+}
+
+.lorem{
+    font-size: 10px;
+    width: 150px;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(58, 50, 215);
+}
+.line{ 
+    width: 150px;
+    height: 10px;
+    background-color: rgb(192, 109, 8);
+}
+.section{
+    background-color: rgb(192, 109, 8);
+}
+.section p{
+    background-color: rgb(58, 50, 215);
+    color: white;
+}
+h1, h2{
+    color: blueviolet;
+}
