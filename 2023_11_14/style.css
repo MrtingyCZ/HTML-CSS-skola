@@ -1,0 +1,41 @@
+* {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.paragraphs {
+    color: #fff;
+    background-color: #02595c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.yellow {
+    color: #f9d423;
+}
+
+.img-bg {
+    background-color: #f9d423;
+    padding: 50px;
+}
+
+img {
+    width: 500px;
+    border-radius: 55px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #02595c;
+}
