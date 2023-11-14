@@ -10,13 +10,16 @@ h1 {
 .paragraphs {
     color: #fff;
     background-color: #02595c;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
 }
 
-.bold {
+.paragraphs p {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.paragraphs p span.bold {
     font-weight: 1000;
 }
 
