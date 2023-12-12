@@ -1,62 +1,82 @@
-*{
+* {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
     background-image: url(./Cosmic-Gradient-14.jpg);
     background-size: 100vw;
     width: 100vw;
 
 }
-.flex-container-navbar{
+
+.flex-container-navbar {
     display: flex;
     justify-content: center;
-    background-color: #181130;
+    background-color: #17112a4f;
     height: 80px;
-    gap: 20px  ;
-    opacity: 60%;
+    gap: 20px;
 }
-.flex-container-navbar > div{
+
+.flex-container-navbar>div {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
-/*.search-icon{
-    height: 20px;
-    width: 20px;
-    align-content: center;
-    size-adjust: 10%;
-}*/
-.flex-container-hac{
+.logo{
+    width: 25vw;
+}
+.search-icon {
+    width: 25vw;
+}
+
+.flex-container-hac {
     align-items: center;
+    width: 50vw;
 }
-.flex-container-hac > div{
+
+.flex-container-hac>div {
     width: 100%;
     color: white;
 }
-.flex-container-textbox{
+
+.flex-container-textbox {
     display: flex;
     align-items: center;
-    
+
 }
-.textbox{
+
+.textbox {
     background-color: white;
     color: black;
     margin: 30vh 30vw;
     border-radius: 20px;
     box-shadow: 0 0 50px 10px #ffffff;
+    gap: 20px;
+    width: 66vw;
 }
-.textbox > p{
+
+.textbox>p {
     padding: 15px;
 }
-.bold{
+
+.bold {
     font-weight: 600;
     font-size: 30px;
 }
-.lorem{
+
+.lorem {
     font-size: 15px;
 }
-.search-icon{
+
+.search-icon {
     height: 20px;
     margin-top: 30px;
+}
+
+.home {
+    padding-left: 15vw;
+}
+
+.contact {
+    padding-right: 15vw;
 }
