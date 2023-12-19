@@ -5,17 +5,17 @@
 
 body {
     background-image: url(./Cosmic-Gradient-14.jpg);
-    background-size: 100vw;
+    background-size: cover;
     width: 100vw;
 
 }
 
 .flex-container-navbar {
     display: flex;
-    justify-content: center;
-    background-color: #02013d23;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02013d67;
     height: 80px;
-    gap: 20px;
 }
 
 .flex-container-navbar>div {
@@ -24,37 +24,43 @@ body {
 }
 
 .logo {
-    width: 25vw;
+    height: 80px;
 }
 
 .search-icon {
-    width: 25vw;
+    height: 20px;
 }
 
 .flex-container-hac {
     align-items: center;
-    width: 50vw;
+    width: 50%;
 }
 
 .flex-container-hac>div {
     width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .flex-container-textbox {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 80vh;
 
 }
 
 .textbox {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     margin: 30vh 30vw;
     border-radius: 20px;
     box-shadow: 0 0 50px 10px #ffffff;
     gap: 20px;
     width: 66vw;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .textbox>p {
@@ -67,12 +73,7 @@ body {
 }
 
 .lorem {
-    font-size: 15px;
-}
-
-.search-icon {
-    height: 20px;
-    margin-top: 30px;
+    font-size: 13px;
 }
 
 .home {
