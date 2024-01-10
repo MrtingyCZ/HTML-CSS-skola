@@ -6,32 +6,38 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 75vw;
+  width: 70vw;
   margin: auto;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
   position: sticky;
-  top: 0px;
+  top: 0;
   background-color: white;
   height: 100px;
   align-items: center;
+  z-index: 2;
 }
-.header-logo > img{
+
+.header-logo>img {
   width: 80px;
 }
-.navbar{
+
+.navbar {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.headline-1{
+
+.headline-1 {
   font-size: 50px;
   text-align: center;
   padding: 50px;
 }
-.hero-section{
+
+.hero-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,17 +46,36 @@ body {
   border-radius: 10px;
   padding: 50px;
 }
-.hero-text{
+
+.hero-text {
   color: var(--text-orange);
 }
-.hero-img > img{
+
+.hero-img {
+  position: relative;
+  z-index: 0;
+}
+
+.hero-img>img {
   height: 300px;
 }
-.text{
+
+.img-placeholder {
+  position: absolute;
+  height: 300px;
+  width: 450px;
+  background-color: #e88121;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+
+.text {
   display: flex;
 
 }
-.text-wrapper{
+
+.text-wrapper {
   width: 30vw;
   margin: auto;
   font-size: 15px;
@@ -59,13 +84,15 @@ body {
   gap: 5px;
   padding-top: 20px;
 }
-.top-link > a > img {
+
+.top-link>a>img {
   height: 50px;
   position: fixed;
   bottom: 0;
   right: 0;
   padding: 20px;
 }
+
 /* Barvy
 Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
