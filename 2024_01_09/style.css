@@ -16,7 +16,7 @@ body {
   position: sticky;
   top: 0;
   background-color: white;
-  height: 100px;
+  padding: 10px 0px 10px 0px;
   align-items: center;
   z-index: 2;
 }
@@ -62,8 +62,8 @@ body {
 
 .img-placeholder {
   position: absolute;
-  height: 300px;
-  width: 450px;
+  height: 100%;
+  width: 100%;
   background-color: var(--img-orange);
   top: -20px;
   left: -20px;
@@ -72,12 +72,11 @@ body {
 
 .text {
   display: flex;
-
+  justify-content: center;
 }
 
 .text-wrapper {
   width: 30vw;
-  margin: auto;
   font-size: 15px;
   display: flex;
   flex-direction: column;
