@@ -1,38 +1,103 @@
-h2{
-    font-size: 60px;
-    font-weight: bold;
-    font-family: "Aldrich";
-}
-h1{
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: right;
-}
-.lorem1{
-    font-family: "aldrich";
+:root {
+  --light-orange: #f2b880;
+  --img-orange: #e88121;
+  --text-orange: #752400;
 }
 
-.lorem{
-    font-size: 10px;
-    width: 150px;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70vw;
+  margin: auto;
 }
-.square{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(58, 50, 215);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px 0px 10px 0px;
+  align-items: center;
+  z-index: 2;
 }
-.line{ 
-    width: 150px;
-    height: 10px;
-    background-color: rgb(192, 109, 8);
+
+.header-logo>img {
+  width: 80px;
 }
-.section{
-    background-color: rgb(192, 109, 8);
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.section p{
-    background-color: rgb(58, 50, 215);
-    color: white;
+
+.headline-1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
 }
-h1, h2{
-    color: blueviolet;
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: var(--light-orange);
+  border-radius: 10px;
+  padding: 50px;
 }
+
+.hero-text {
+  color: var(--text-orange);
+}
+
+.hero-img {
+  position: relative;
+  z-index: 0;
+}
+
+.hero-img>img {
+  height: 300px;
+}
+
+.img-placeholder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--img-orange);
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text-wrapper {
+  width: 30vw;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.text-wrapper > p{
+  font-family: Verdana;
+}
+
+.top-link>a>img {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
